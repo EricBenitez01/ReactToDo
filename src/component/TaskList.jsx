@@ -14,9 +14,9 @@ function TaskList() {
     } else {
         return (
     <div>
-        {task.map((task, i) => 
+        {task.map((task) => 
     <> 
-    <div key={i} >{task.title}</div>
+    <div key={task.id} >{task.title}</div>
     <p> {task.description} </p>
     </>
     )}
