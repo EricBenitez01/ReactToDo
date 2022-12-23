@@ -25,7 +25,7 @@ const handlerSubmit = (e) => {
             onChange = { (e) => setTitle(e.target.value)} value={title} autoFocus />
             <textarea className='bg-slate-300 p-3 w-full mb-2' placeholder='Añade una descripcion' 
             onChange = {(e) => setDescription(e.target.value)} value={description} ></textarea>
-            <button className='bg-indigo-500 px-3 py-1 text-withe'>Guardar</button>
+            <button className='bg-indigo-500 px-3 py-1 text-withe'>Guardar Tarea</button>
         </form>
     </div>
   )
